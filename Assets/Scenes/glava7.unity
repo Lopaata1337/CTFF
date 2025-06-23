@@ -180,6 +180,8 @@ MonoBehaviour:
   characterImage: {fileID: 1314136200}
   nextButton: {fileID: 914614136}
   backgroundRenderer: {fileID: 1256337718}
+  choicePanel: {fileID: 1126198846}
+  choiceButtons: []
 --- !u!4 &685581462
 Transform:
   m_ObjectHideFlags: 0
@@ -430,9 +432,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 446548293494714495, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 446548293494714495, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 446548293494714495, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 446548293494714495, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 986574018842588316, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_Color.a
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672281431197042187, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672281431197042187, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672281431197042187, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672281431197042187, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 170
       objectReference: {fileID: 0}
     - target: {fileID: 1727826702217096913, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_fontSize
@@ -556,6 +590,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+--- !u!1 &1126198846 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2883657495428730309, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+  m_PrefabInstance: {fileID: 1126198845}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1256337717
 GameObject:
   m_ObjectHideFlags: 0

@@ -278,6 +278,11 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!1 &941298467 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2883657495428730309, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+  m_PrefabInstance: {fileID: 1361506987}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1199334214 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1727826702217096913, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
@@ -439,6 +444,8 @@ MonoBehaviour:
   characterImage: {fileID: 1684078391}
   nextButton: {fileID: 657985182}
   backgroundRenderer: {fileID: 1252153789}
+  choicePanel: {fileID: 941298467}
+  choiceButtons: []
 --- !u!4 &1340165548
 Transform:
   m_ObjectHideFlags: 0

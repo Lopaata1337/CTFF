@@ -505,6 +505,8 @@ MonoBehaviour:
   characterImage: {fileID: 1730223480}
   nextButton: {fileID: 1166003530}
   backgroundRenderer: {fileID: 204653286}
+  choicePanel: {fileID: 1620647082}
+  choiceButtons: []
 --- !u!4 &1597836309
 Transform:
   m_ObjectHideFlags: 0
@@ -578,16 +580,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727826702217096913, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_fontSize
-      value: 33.7
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 1727826702217096913, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 1727826702217096913, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 1727826702217096913, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
@@ -599,11 +601,11 @@ PrefabInstance:
     - target: {fileID: 4371909895058991040, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 4371909895058991040, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 4371909895058991040, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
@@ -698,6 +700,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+--- !u!1 &1620647082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2883657495428730309, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+  m_PrefabInstance: {fileID: 1620647081}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1730223480 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 986574018842588316, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}

@@ -20,3 +20,4 @@ MonoBehaviour:
   voiceLine: {fileID: 0}
   nextDialogue: {fileID: 11400000, guid: 0e0b3c747cd21764fbd07cc5635fd35e, type: 2}
   backgroundSprite: {fileID: 4712660294961319803, guid: 3018ca440e57c974ca2a67781a196dfc, type: 3}
+  choices: []

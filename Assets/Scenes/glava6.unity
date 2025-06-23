@@ -217,6 +217,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &355418381 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2883657495428730309, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+  m_PrefabInstance: {fileID: 1525743111}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &411150444
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,6 +510,8 @@ MonoBehaviour:
   characterImage: {fileID: 841234550}
   nextButton: {fileID: 1552520520}
   backgroundRenderer: {fileID: 54776184}
+  choicePanel: {fileID: 355418381}
+  choiceButtons: []
 --- !u!4 &1225650566
 Transform:
   m_ObjectHideFlags: 0
@@ -528,9 +535,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 446548293494714495, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 446548293494714495, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 446548293494714495, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 446548293494714495, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 986574018842588316, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_Color.a
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672281431197042187, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672281431197042187, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672281431197042187, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672281431197042187, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 170
       objectReference: {fileID: 0}
     - target: {fileID: 1727826702217096913, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_fontSize

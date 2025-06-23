@@ -494,6 +494,8 @@ MonoBehaviour:
   characterImage: {fileID: 118141401}
   nextButton: {fileID: 441438385}
   backgroundRenderer: {fileID: 793958935}
+  choicePanel: {fileID: 1992974379}
+  choiceButtons: []
 --- !u!4 &906351875
 Transform:
   m_ObjectHideFlags: 0
@@ -517,9 +519,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 446548293494714495, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 446548293494714495, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 446548293494714495, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 446548293494714495, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 986574018842588316, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_Color.a
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672281431197042187, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672281431197042187, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672281431197042187, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672281431197042187, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 170
       objectReference: {fileID: 0}
     - target: {fileID: 1727826702217096913, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_fontSize
@@ -669,6 +703,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1992974379 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2883657495428730309, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+  m_PrefabInstance: {fileID: 1430660797}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
