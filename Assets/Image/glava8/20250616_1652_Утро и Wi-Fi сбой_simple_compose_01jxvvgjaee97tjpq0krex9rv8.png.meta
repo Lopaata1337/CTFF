@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c4ee044236627604695a3c7f4eb1bec3
+guid: 94f2ecc9dc9d3ed498827b6f415bd412
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6937817954938267909
-    second: 2_0
+      213: -7837562368919255248
+    second: "20250616_1652_\u0423\u0442\u0440\u043E \u0438 Wi-Fi \u0441\u0431\u043E\u0439_simple_compose_01jxvvgjaee97tjpq0krex9rv8_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 2_0
+      name: "20250616_1652_\u0423\u0442\u0440\u043E \u0438 Wi-Fi \u0441\u0431\u043E\u0439_simple_compose_01jxvvgjaee97tjpq0krex9rv8_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5092c600ca4184060800000000000000
-      internalID: 6937817954938267909
+      spriteID: 0374997fc826b3390800000000000000
+      internalID: -7837562368919255248
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      2_0: 6937817954938267909
+      "20250616_1652_\u0423\u0442\u0440\u043E \u0438 Wi-Fi \u0441\u0431\u043E\u0439_simple_compose_01jxvvgjaee97tjpq0krex9rv8_0": -7837562368919255248
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

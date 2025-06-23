@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 206750a8fc8a421468be69bf61f8169c, type: 3}
   m_Name: NewDialogue 1
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 1
+  characterName: "\u0432\u0440\u0441\u0432\u0430\u043C\u0438\u043F"
+  dialogueText: "\u0441\u043C \u0430\u0438 \u043F\u0440"
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
   nextDialogue: {fileID: 11400000, guid: 3e58c94cdc1f0d544b4f9a067c568ffd, type: 2}

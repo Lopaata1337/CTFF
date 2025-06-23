@@ -1,10 +1,11 @@
 fileFormatVersion: 2
-guid: c4ee044236627604695a3c7f4eb1bec3
+guid: c43910a842f405d48877f3cb9086e125
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6937817954938267909
-    second: 2_0
+      213: -7409175720799046542
+    second: "20250621_1438_\u0423\u0442\u0440\u0435\u043D\u043D\u0438\u0439 \u0441\u0431\u043E\u0439
+      Wi-Fi_simple_compose_01jy8ftc2sfykvq2jnhnfvbw3m_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +114,8 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 2_0
+      name: "20250621_1438_\u0423\u0442\u0440\u0435\u043D\u043D\u0438\u0439 \u0441\u0431\u043E\u0439
+        Wi-Fi_simple_compose_01jy8ftc2sfykvq2jnhnfvbw3m_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5092c600ca4184060800000000000000
-      internalID: 6937817954938267909
+      spriteID: 274f25bffe15d2990800000000000000
+      internalID: -7409175720799046542
       vertices: []
       indices: 
       edges: []
@@ -148,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      2_0: 6937817954938267909
+      "20250621_1438_\u0423\u0442\u0440\u0435\u043D\u043D\u0438\u0439 \u0441\u0431\u043E\u0439 Wi-Fi_simple_compose_01jy8ftc2sfykvq2jnhnfvbw3m_0": -7409175720799046542
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 206750a8fc8a421468be69bf61f8169c, type: 3}
   m_Name: NewDialogue 2
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 2
+  characterName: "\u043C\u0438\u0432\u0438\u0442\u043E\u0440\u043F"
+  dialogueText: "\u043C \u043F\u0438\u043F\u0440"
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
-  nextDialogue: {fileID: 0}
-  backgroundSprite: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 1297a000e9e28c04697a6501a8e8a098, type: 2}
+  backgroundSprite: {fileID: 5612397770650784843, guid: f40b0c057eb92c946ae080956e6cfb84, type: 3}
