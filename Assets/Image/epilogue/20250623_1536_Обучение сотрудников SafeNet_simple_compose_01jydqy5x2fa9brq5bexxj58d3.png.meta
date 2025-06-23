@@ -1,10 +1,11 @@
 fileFormatVersion: 2
-guid: 9207a12eee5f84d4a83aa25c8c0eb87a
+guid: 7626462825a865e42ac118ee42c1d6c5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4178046375966092550
-    second: 4_0
+      213: -6886709170574270112
+    second: "20250623_1536_\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435 \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u043A\u043E\u0432
+      SafeNet_simple_compose_01jydqy5x2fa9brq5bexxj58d3_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,11 +97,25 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 4_0
+      name: "20250623_1536_\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435 \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u043A\u043E\u0432
+        SafeNet_simple_compose_01jydqy5x2fa9brq5bexxj58d3_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af2de6115f89406c0800000000000000
-      internalID: -4178046375966092550
+      spriteID: 061ee782f7e7d60a0800000000000000
+      internalID: -6886709170574270112
       vertices: []
       indices: 
       edges: []
@@ -135,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      4_0: -4178046375966092550
+      "20250623_1536_\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435 \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u043A\u043E\u0432 SafeNet_simple_compose_01jydqy5x2fa9brq5bexxj58d3_0": -6886709170574270112
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
