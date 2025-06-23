@@ -169,6 +169,9 @@ MonoBehaviour:
   characterImage: {fileID: 1116405583}
   nextButton: {fileID: 1897479364}
   backgroundRenderer: {fileID: 1684175589}
+  choicePanel: {fileID: 787768413}
+  choiceButtons:
+  - {fileID: 1673852155}
 --- !u!4 &175470626
 Transform:
   m_ObjectHideFlags: 0
@@ -184,6 +187,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &787768413 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2883657495428730309, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+  m_PrefabInstance: {fileID: 908370091}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &849172843
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,6 +648,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1673852155 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2356616209000519919, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+  m_PrefabInstance: {fileID: 908370091}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1684175587

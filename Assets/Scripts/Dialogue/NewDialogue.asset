@@ -18,3 +18,6 @@ MonoBehaviour:
   voiceLine: {fileID: 0}
   nextDialogue: {fileID: 11400000, guid: 059a9dcd93a64a640995089ebc406354, type: 2}
   backgroundSprite: {fileID: -855298285791758126, guid: 42d834b8f1db4dc4fa5194249212425c, type: 3}
+  choices:
+  - choiceText: 11
+    nextDialogue: {fileID: 11400000, guid: abc45bba3089ad44a95388bdc5438a04, type: 2}
