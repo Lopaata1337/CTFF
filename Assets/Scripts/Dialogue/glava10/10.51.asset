@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 206750a8fc8a421468be69bf61f8169c, type: 3}
-  m_Name: 10.9
+  m_Name: 10.51
   m_EditorClassIdentifier: 
   characterName: "\u0424\u0438\u0448\u0435\u0440"
-  dialogueText: "\u041D\u0435 \u0434\u0443\u043C\u0430\u0439, \u0447\u0442\u043E
-    \u044D\u0442\u043E \u043A\u043E\u043D\u0435\u0446. \u0422\u0430\u043A\u0438\u0445
-    \u043A\u0430\u043A \u044F \u2014 \u0442\u044B\u0441\u044F\u0447\u0438."
+  dialogueText: "\u041F\u043E \u0440\u0443\u043A\u0430\u043C. "
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
-  nextDialogue: {fileID: 0}
-  backgroundSprite: {fileID: -7198150742929944437, guid: 187a736f172a8be4594664fbe520243e, type: 3}
+  nextDialogue: {fileID: 11400000, guid: d5f67aa7d1024024f8415c65623538bd, type: 2}
+  backgroundSprite: {fileID: -4043142523393778329, guid: fcd93f5c6fb20274e8aa905cc934d05c, type: 3}
+  choices: []

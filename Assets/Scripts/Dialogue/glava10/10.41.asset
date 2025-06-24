@@ -10,16 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 206750a8fc8a421468be69bf61f8169c, type: 3}
-  m_Name: 10.4
+  m_Name: 10.41
   m_EditorClassIdentifier: 
-  characterName: "\u0424\u0438\u0448\u0435\u0440"
-  dialogueText: "\u0412\u044B\u0431\u043E\u0440 \u0437\u0430 \u0442\u043E\u0431\u043E\u0439"
+  characterName: "\u0412\u044B"
+  dialogueText: "\u042F \u043F\u0440\u0438\u043C\u0443 \u0442\u0432\u043E\u0435 \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u0435"
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: f6aaf027be22d374a81e56af52ba2cf0, type: 2}
   backgroundSprite: {fileID: -4482728908696483535, guid: 234bfce56dd9898438b794a372bba6d5, type: 3}
-  choices:
-  - choiceText: "\u041E\u0442\u043A\u0430\u0437\u0430\u0442\u044C\u0441\u044F"
-    nextDialogue: {fileID: 11400000, guid: 6675113d928e2f34d8de8a85bb593c45, type: 2}
-  - choiceText: "\u041F\u0440\u0438\u043D\u044F\u0442\u044C"
-    nextDialogue: {fileID: 11400000, guid: 1800b1b4c05a34541824f3e12994b508, type: 2}
+  choices: []

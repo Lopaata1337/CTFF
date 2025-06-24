@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206750a8fc8a421468be69bf61f8169c, type: 3}
+  m_Name: 10.80
+  m_EditorClassIdentifier: 
+  characterName: 
+  dialogueText: "\u041F\u043E\u043B\u0438\u0446\u0438\u044F \u0441\u0445\u0432\u0430\u0442\u0438\u043B\u0430
+    \u0435\u0433\u043E!"
+  characterSprite: {fileID: 0}
+  voiceLine: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: a0290fa190388644ba798b4ffc57e662, type: 2}
+  backgroundSprite: {fileID: -7198150742929944437, guid: 187a736f172a8be4594664fbe520243e, type: 3}

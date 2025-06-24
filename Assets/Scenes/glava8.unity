@@ -176,7 +176,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1727826702217096913, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_fontSize
+<<<<<<< Updated upstream
       value: 33.7
+=======
+      value: 67.45
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 1727826702217096913, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
       propertyPath: m_fontAsset
@@ -296,7 +300,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+<<<<<<< Updated upstream
 --- !u!1 &499534197 stripped
+=======
+--- !u!1 &499534194 stripped
+>>>>>>> Stashed changes
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2883657495428730309, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
   m_PrefabInstance: {fileID: 499534193}
@@ -586,7 +594,11 @@ MonoBehaviour:
   characterImage: {fileID: 380591551}
   nextButton: {fileID: 2145389003}
   backgroundRenderer: {fileID: 1189915180}
+<<<<<<< Updated upstream
   choicePanel: {fileID: 499534197}
+=======
+  choicePanel: {fileID: 499534194}
+>>>>>>> Stashed changes
   choiceButtons: []
 --- !u!4 &1758972600
 Transform:

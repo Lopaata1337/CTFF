@@ -510,7 +510,11 @@ MonoBehaviour:
   characterImage: {fileID: 841234550}
   nextButton: {fileID: 1552520520}
   backgroundRenderer: {fileID: 54776184}
+<<<<<<< Updated upstream
   choicePanel: {fileID: 355418381}
+=======
+  choicePanel: {fileID: 1363561793}
+>>>>>>> Stashed changes
   choiceButtons: []
 --- !u!4 &1225650566
 Transform:
@@ -527,6 +531,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1363561793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2883657495428730309, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+  m_PrefabInstance: {fileID: 1525743111}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1525743111
 PrefabInstance:
   m_ObjectHideFlags: 0
