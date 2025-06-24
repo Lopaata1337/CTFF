@@ -510,11 +510,7 @@ MonoBehaviour:
   characterImage: {fileID: 841234550}
   nextButton: {fileID: 1552520520}
   backgroundRenderer: {fileID: 54776184}
-<<<<<<< Updated upstream
   choicePanel: {fileID: 355418381}
-=======
-  choicePanel: {fileID: 1363561793}
->>>>>>> Stashed changes
   choiceButtons: []
 --- !u!4 &1225650566
 Transform:

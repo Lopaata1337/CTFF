@@ -267,11 +267,7 @@ MonoBehaviour:
   characterImage: {fileID: 2119130225}
   nextButton: {fileID: 933906520}
   backgroundRenderer: {fileID: 187235596}
-<<<<<<< Updated upstream
   choicePanel: {fileID: 1217598630}
-=======
-  choicePanel: {fileID: 1148417243}
->>>>>>> Stashed changes
   choiceButtons: []
 --- !u!4 &295072788
 Transform:
@@ -613,11 +609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
 --- !u!1 &1217598630 stripped
-=======
---- !u!1 &1148417243 stripped
->>>>>>> Stashed changes
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2883657495428730309, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
   m_PrefabInstance: {fileID: 425838944}
