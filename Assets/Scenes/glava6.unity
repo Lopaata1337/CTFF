@@ -530,13 +530,14 @@ MonoBehaviour:
   characterNameText: {fileID: 18890859}
   dialogueText: {fileID: 580366560}
   characterImage: {fileID: 841234550}
-  nextButton: {fileID: 1552520520}
+  nextButton: {fileID: 1323907244}
   backgroundRenderer: {fileID: 54776184}
   choicePanel: {fileID: 355418381}
   choiceButtons:
   - {fileID: 1589965121}
   - {fileID: 981064531}
   - {fileID: 1115895983}
+  dialoguePanelButton: {fileID: 1323907244}
 --- !u!4 &1225650566
 Transform:
   m_ObjectHideFlags: 0
@@ -552,6 +553,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1323907244 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 850068733184666544, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
+  m_PrefabInstance: {fileID: 1525743111}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1525743111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -766,17 +778,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
---- !u!114 &1552520520 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6056023868673417443, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
-  m_PrefabInstance: {fileID: 1525743111}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1589965121 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2356616209000519919, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
