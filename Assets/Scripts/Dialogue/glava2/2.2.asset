@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 206750a8fc8a421468be69bf61f8169c, type: 3}
   m_Name: 2.2
   m_EditorClassIdentifier: 
-  characterName: "\u0412\u042B"
-  dialogueText: "(\u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442 \u0432\u044B\u0437\u043E\u0432)"
+  characterName: 
+  dialogueText: "(\u041F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442 \u0432\u044B\u0437\u043E\u0432)"
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
   nextDialogue: {fileID: 11400000, guid: d4619a7d807594a40bc5eeab4bd238ce, type: 2}
