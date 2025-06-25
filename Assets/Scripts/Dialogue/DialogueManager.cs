@@ -1,7 +1,6 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using VN.Dialogue;
 
 namespace VN.Dialogue
 {
@@ -20,12 +19,31 @@ namespace VN.Dialogue
         [SerializeField] private GameObject choicePanel;
         [SerializeField] private Button[] choiceButtons;
 
+        [Header("Нажатие по панели")]
+        [SerializeField] private Button dialoguePanelButton;
+
         private DialogueSO currentDialogue;
 
         public void StartDialogue(DialogueSO startDialogue)
         {
             currentDialogue = startDialogue;
             DisplayCurrentDialogue();
+
+            if (dialoguePanelButton != null)
+            {
+                dialoguePanelButton.onClick.RemoveAllListeners();
+                dialoguePanelButton.onClick.AddListener(OnDialoguePanelClicked);
+            }
+        }
+
+        private void OnDialoguePanelClicked()
+        {
+            // Продолжить, только если нет выбора
+            if (currentDialogue != null &&
+                (currentDialogue.choices == null || currentDialogue.choices.Length == 0))
+            {
+                NextDialogue();
+            }
         }
 
         private void DisplayCurrentDialogue()
@@ -97,26 +115,28 @@ namespace VN.Dialogue
 
             for (int i = 0; i < choiceButtons.Length; i++)
             {
+                var btn = choiceButtons[i];
+                btn.onClick.RemoveAllListeners();
+
                 if (i < currentDialogue.choices.Length)
                 {
-                    var btn = choiceButtons[i];
+                    var choice = currentDialogue.choices[i];
                     btn.gameObject.SetActive(true);
 
-                    var choice = currentDialogue.choices[i];
                     var btnText = btn.GetComponentInChildren<TextMeshProUGUI>();
-                    if (btnText != null) btnText.text = choice.choiceText;
+                    if (btnText != null)
+                        btnText.text = choice.choiceText;
 
-                    btn.onClick.RemoveAllListeners();
+                    DialogueSO next = choice.nextDialogue;
                     btn.onClick.AddListener(() =>
                     {
-                        currentDialogue = choice.nextDialogue;
+                        currentDialogue = next;
                         DisplayCurrentDialogue();
                     });
                 }
                 else
                 {
-                    choiceButtons[i].gameObject.SetActive(false);
-                    choiceButtons[i].onClick.RemoveAllListeners();
+                    btn.gameObject.SetActive(false);
                 }
             }
         }
