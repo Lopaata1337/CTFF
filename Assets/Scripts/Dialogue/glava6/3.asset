@@ -20,5 +20,6 @@ MonoBehaviour:
     \u0441\u0447\u0435\u0442?"
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 5bbd8122a8b67d24f90181c767c06469, type: 2}
   backgroundSprite: {fileID: 7732400710879730720, guid: f8fd3c76635bfb440a0369d38794db6c, type: 3}
+  choices: []
