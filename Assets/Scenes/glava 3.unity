@@ -536,7 +536,7 @@ MonoBehaviour:
   characterNameText: {fileID: 967255577}
   dialogueText: {fileID: 239986260}
   characterImage: {fileID: 1730223480}
-  nextButton: {fileID: 0}
+  nextButton: {fileID: 349869591}
   backgroundRenderer: {fileID: 204653286}
   choicePanel: {fileID: 1620647082}
   choiceButtons:
