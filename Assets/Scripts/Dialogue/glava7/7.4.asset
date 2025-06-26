@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206750a8fc8a421468be69bf61f8169c, type: 3}
+  m_Name: 7.4
+  m_EditorClassIdentifier: 
+  characterName: 
+  dialogueText: 
+  characterSprite: {fileID: 0}
+  voiceLine: {fileID: 0}
+  nextDialogue: {fileID: 0}
+  backgroundSprite: {fileID: 0}
+  choices:
+  - choiceText: "\u0417\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u044C \u0430\u043D\u043A\u0435\u0442\u0443"
+    nextDialogue: {fileID: 11400000, guid: 724212fbfb371c04db608401daf634f2, type: 2}
+  - choiceText: "\u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u043F\u0440\u043E\u0444\u0438\u043B\u044C"
+    nextDialogue: {fileID: 11400000, guid: ebf993da07f7273458ecb79f5562cf16, type: 2}
+  - choiceText: "\u041F\u0435\u0440\u0435\u0441\u043B\u0430\u0442\u044C \u0432 \u043E\u0442\u0434\u0435\u043B
+      \u0418\u0411"
+    nextDialogue: {fileID: 11400000, guid: 17c1242f5aaed744099aa486c6dfb6f3, type: 2}
