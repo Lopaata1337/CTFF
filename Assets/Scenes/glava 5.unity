@@ -519,7 +519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startDialogues:
-  - {fileID: 11400000, guid: 6e1d633132c793a4daa9fde476d2747d, type: 2}
+  - {fileID: 11400000, guid: c8c4b5957460bc844a741e26b8307423, type: 2}
   dialogueManager: {fileID: 1597836308}
 --- !u!114 &1597836308
 MonoBehaviour:

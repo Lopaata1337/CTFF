@@ -26,4 +26,4 @@ MonoBehaviour:
       \u0418\u0411"
     nextDialogue: {fileID: 11400000, guid: 044d93a0e36fd0746a6871efc899bcde, type: 2}
   - choiceText: "\u041E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u043D\u0430 \u043C\u0435\u0441\u0442\u0435"
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: 8e7714f70132f534297753da79fc8c84, type: 2}

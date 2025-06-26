@@ -13,9 +13,13 @@ MonoBehaviour:
   m_Name: 3.14c
   m_EditorClassIdentifier: 
   characterName: 
-  dialogueText: 
+  dialogueText: "(\u0427\u0435\u0440\u0435\u0437 \u0447\u0430\u0441 \u0444\u043B\u0435\u0448\u043A\u0430
+    \u0438\u0441\u0447\u0435\u0437\u043B\u0430. \u0412 \u043E\u0444\u0438\u0441\u0435
+    \u043D\u0430\u0447\u0430\u043B\u0441\u044F \u043F\u0435\u0440\u0435\u043F\u043E\u043B\u043E\u0445
+    \u2014 \u0443 \u043A\u043E\u0433\u043E-\u0442\u043E \u0441\u043B\u043E\u043C\u0430\u043B\u0441\u044F
+    \u043A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440)\n"
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
-  nextDialogue: {fileID: 0}
-  backgroundSprite: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 6d0beaa49c94de245b72cfe76889a8a8, type: 2}
+  backgroundSprite: {fileID: -747348131669524827, guid: 913febe863ec6fb4ba9223104b523a94, type: 3}
   choices: []
