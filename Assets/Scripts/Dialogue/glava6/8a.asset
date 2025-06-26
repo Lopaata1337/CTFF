@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 206750a8fc8a421468be69bf61f8169c, type: 3}
   m_Name: 8a
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: "\u041B\u0435\u043A\u0441 (\u0432\u043E\u0440\u0432\u0430\u043B\u0441\u044F
+    \u0441 \u043E\u0445\u0440\u0430\u043D\u043E\u0439)"
+  dialogueText: "\u042D\u0442\u043E \u0431\u044B\u043B \u0444\u0435\u0439\u043A!"
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
-  nextDialogue: {fileID: 0}
-  backgroundSprite: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 54a1fb50b4847514db0373cd23a50372, type: 2}
+  backgroundSprite: {fileID: 1427487217401393522, guid: 6598a4e398c60b445939f76f9b03a57c, type: 3}
   choices: []
