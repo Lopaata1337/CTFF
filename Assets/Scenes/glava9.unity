@@ -170,10 +170,7 @@ MonoBehaviour:
   nextButton: {fileID: 2103408797}
   backgroundRenderer: {fileID: 1842407965}
   choicePanel: {fileID: 2103408794}
-  choiceButtons:
-  - {fileID: 2103408796}
-  - {fileID: 2103408795}
-  - {fileID: 2103408790}
+  choiceButtons: []
   dialoguePanelButton: {fileID: 2103408797}
 --- !u!4 &267037553
 Transform:
@@ -707,17 +704,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
---- !u!114 &2103408790 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2593585420364750241, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
-  m_PrefabInstance: {fileID: 2103408789}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2103408791 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 986574018842588316, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
@@ -756,28 +742,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2883657495428730309, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
   m_PrefabInstance: {fileID: 2103408789}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2103408795 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5161766606488380383, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
-  m_PrefabInstance: {fileID: 2103408789}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2103408796 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2356616209000519919, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
-  m_PrefabInstance: {fileID: 2103408789}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2103408797 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 850068733184666544, guid: 5b1a6a4dff933d741a247bd25b67dbb5, type: 3}
