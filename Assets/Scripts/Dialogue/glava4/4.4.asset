@@ -17,7 +17,7 @@ MonoBehaviour:
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
   nextDialogue: {fileID: 0}
-  backgroundSprite: {fileID: 0}
+  backgroundSprite: {fileID: 3354543894735147549, guid: f69a5aa11a97ee34da473296250e52b5, type: 3}
   choices:
   - choiceText: "\u0421\u043A\u0430\u0447\u0430\u0442\u044C \u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435"
     nextDialogue: {fileID: 11400000, guid: c49e099e53b0fe64cbb384ec0a3363bf, type: 2}

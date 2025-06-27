@@ -20,5 +20,5 @@ MonoBehaviour:
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
   nextDialogue: {fileID: 11400000, guid: b9ba9a030a2dd8645b3be85afde5050b, type: 2}
-  backgroundSprite: {fileID: 0}
+  backgroundSprite: {fileID: 5914443786484713687, guid: 910e1d7f81f3b864bbc8bfa2160358d7, type: 3}
   choices: []
