@@ -19,6 +19,6 @@ MonoBehaviour:
     \u043C\u0430\u0441\u0441\u043E\u0432\u0443\u044E \u0430\u0442\u0430\u043A\u0443"
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: e4bc8a463d5be144483a6d50f9252e2e, type: 2}
   backgroundSprite: {fileID: -3176533332462244431, guid: e51db41a084ac7748a6dcc9aa3b67a91, type: 3}
   choices: []

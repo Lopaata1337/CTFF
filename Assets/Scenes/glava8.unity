@@ -602,7 +602,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 586441641492396829, guid: 49512478ce0b8c94e92509dc157057f8, type: 3}
+  m_Sprite: {fileID: -6262439781886068027, guid: 5992a909fa9ed5548b8cace9524bb16c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -623,7 +623,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.1, y: -0.03, z: 0}
-  m_LocalScale: {x: 1.19, y: 1, z: 1}
+  m_LocalScale: {x: 1.4463259, y: 1.42, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -659,7 +659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startDialogues:
-  - {fileID: 11400000, guid: 8aab2a5df4d062e4aa784155b7e14d3e, type: 2}
+  - {fileID: 11400000, guid: 11ca12e51eebc3a47ad67be7375aa721, type: 2}
   dialogueManager: {fileID: 1758972599}
 --- !u!114 &1758972599
 MonoBehaviour:
@@ -684,6 +684,7 @@ MonoBehaviour:
   - {fileID: 499534195}
   - {fileID: 499534194}
   dialoguePanelButton: {fileID: 499534198}
+  textSpeed: 0.04
 --- !u!4 &1758972600
 Transform:
   m_ObjectHideFlags: 0

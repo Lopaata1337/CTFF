@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: 3.19a
   m_EditorClassIdentifier: 
   characterName: "\u0412\u044B"
-  dialogueText: "\u041D\u0430\u0434\u043E \u0431\u044B\u043B\u043E \u0432\u0441\u0451
-    \u0442\u0430\u043A\u0438 \u043E\u0442\u043D\u0435\u0441\u0442\u0438 \u0432 \u0438\u0431"
+  dialogueText: "\u041C\u043E\u0436\u0435\u0442 \u0432\u0441\u0451-\u0442\u0430\u043A\u0438
+    \u043D\u0430\u0434\u043E \u0431\u044B\u043B\u043E \u043E\u0442\u043D\u0435\u0441\u0442\u0438
+    \u043D\u0430 \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0443 \u0432 \u043E\u0442\u0434\u0435\u043B
+    \u0418\u0411..."
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
   nextDialogue: {fileID: 11400000, guid: 103a8517a1976c743b2f7309a7be1cc3, type: 2}
