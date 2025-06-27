@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 4
   m_EditorClassIdentifier: 
   characterName: 
-  dialogueText: "(\u0412\u044B\u0431\u043E\u0440)"
+  dialogueText: 
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
   nextDialogue: {fileID: 0}

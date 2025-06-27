@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 206750a8fc8a421468be69bf61f8169c, type: 3}
   m_Name: 7.6c
   m_EditorClassIdentifier: 
-  characterName: 
-  dialogueText: 
+  characterName: "\u041B\u0435\u043A\u0441"
+  dialogueText: "\u042D\u0442\u043E \u0424\u0438\u0448\u0435\u0440! \u041C\u044B
+    \u043E\u0442\u0441\u043B\u0435\u0434\u0438\u043B\u0438 IP \u2014 \u043E\u043D
+    \u0432 \u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442-\u043A\u0430\u0444\u0435
+    \u0447\u0435\u0440\u0435\u0437 2 \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0430
+    \u043E\u0442 \u0442\u0435\u0431\u044F. \u041E\u0445\u0440\u0430\u043D\u0430 \u0443\u0436\u0435
+    \u0432\u044B\u0435\u0445\u0430\u043B\u0430."
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 35332d3e4c47a264eb6d2b9fa5bf37ca, type: 2}
   backgroundSprite: {fileID: 0}
   choices: []
