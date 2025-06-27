@@ -19,6 +19,6 @@ MonoBehaviour:
     \"SafeNet IT Support\")"
   characterSprite: {fileID: 0}
   voiceLine: {fileID: 0}
-  nextDialogue: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: e147595a83777d4419853d5d11a129bd, type: 2}
   backgroundSprite: {fileID: 2439675005315982340, guid: 4058cf01fda366c40b0b9fcd99976cb5, type: 3}
   choices: []
