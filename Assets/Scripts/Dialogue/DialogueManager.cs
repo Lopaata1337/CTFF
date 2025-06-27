@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 namespace VN.Dialogue
 {
@@ -21,6 +22,12 @@ namespace VN.Dialogue
 
         [Header("Нажатие по панели")]
         [SerializeField] private Button dialoguePanelButton;
+
+        [Header("Анимация текста")]
+        [SerializeField] private float textSpeed = 0.04f;
+
+        private Coroutine typingCoroutine;
+        private bool isTyping = false;
 
         private DialogueSO currentDialogue;
 
@@ -56,13 +63,17 @@ namespace VN.Dialogue
             }
 
             characterNameText.text = currentDialogue.characterName;
-            dialogueText.text = currentDialogue.dialogueText;
             characterImage.sprite = currentDialogue.characterSprite;
 
             if (backgroundRenderer != null && currentDialogue.backgroundSprite != null)
             {
                 backgroundRenderer.sprite = currentDialogue.backgroundSprite;
             }
+
+            if (typingCoroutine != null)
+                StopCoroutine(typingCoroutine);
+
+            typingCoroutine = StartCoroutine(TypeDialogue(currentDialogue.dialogueText));
 
             if (currentDialogue.choices != null && currentDialogue.choices.Length > 0)
             {
@@ -73,6 +84,23 @@ namespace VN.Dialogue
                 HideChoices();
                 ShowNextButton();
             }
+        }
+
+        /// <summary>
+        /// Постепенно печатает текст диалога по буквам
+        /// </summary>
+        private IEnumerator TypeDialogue(string fullText)
+        {
+            isTyping = true;
+            dialogueText.text = "";
+
+            foreach (char letter in fullText)
+            {
+                dialogueText.text += letter;
+                yield return new WaitForSeconds(textSpeed);
+            }
+
+            isTyping = false;
         }
 
         private void ClearUI()
@@ -104,6 +132,17 @@ namespace VN.Dialogue
 
         private void NextDialogue()
         {
+            // Если текст ещё печатается — досрочно показать его
+            if (isTyping)
+            {
+                if (typingCoroutine != null)
+                    StopCoroutine(typingCoroutine);
+
+                dialogueText.text = currentDialogue.dialogueText;
+                isTyping = false;
+                return;
+            }
+
             currentDialogue = currentDialogue.nextDialogue;
             DisplayCurrentDialogue();
         }
